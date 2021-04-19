@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Kamenorezačka radnja - RAŠA </title>
+
+        <!--FONT AWESOME-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+          <!--GOOGLE FONTS-->
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--STYLE.CSS-->
+        <link href="../CSS/loader.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+
+        <!--ANIMATION-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    </head>
+    
+    <body>
+      <!--LOADER-->
+      <div class="load-wrapper">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+      </div>
+
+      <!--NAVIGATION-->
+      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark sticky">
+        <div class="container-fluid container p-2">
+          <a class="navbar-brand" href="Index.html">RAŠA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Index.html">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">O nama</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Enterijer / Eksterijer
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="Kitchen.html">Kuhinje</a></li>
+                  <li><a class="dropdown-item" href="Floor.html">Podovi</a></li>
+                  <li><a class="dropdown-item" href="Stairs.html">Stepenice</a></li>
+                  <li><a class="dropdown-item" href="Fireplace.html">Kamini</a></li>
+                  <li><a class="dropdown-item" href="Bathroom.html">Kupatila</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Materijali
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="Marble.html">Mermer</a></li>
+                  <li><a class="dropdown-item" href="Granite.html">Granit</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Memorial.html">Spomenici</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--NAVIGATION END-->
+
+      <!--SLIDER-->
+      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../images/banners/ban8.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../images/banners/ban9.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--SLIDER END-->
+
+      <!--FEATURE CARD-->
+      <section class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <a href="Floor.html">
+              <div class="feature-card animate__animated" data-animation="animate__backInUp" >
+                <img src="../images/kichen1.jpg" class="card-img-top" alt="...">
+              </div>
+            </a>
+              <div class="f-btn">
+                <a href="Floor.html" class="feature-button animate__animated" data-animation="animate__backInUp">Podovi</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <a href="Kitchen.html">
+              <div class="feature-card animate__animated" data-animation="animate__backInUp">
+                <img src="../images/kichen.jpg" class="card-img-top" alt="...">
+              </div>
+            </a>
+              <div class="f-btn">
+                <a href="Kitchen.html" class="feature-button animate__animated" data-animation="animate__backInUp">Kuhinje</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <a href="Stairs.html">
+              <div class="feature-card animate__animated" data-animation="animate__backInUp">
+                <img src="../images/stepenice2.jpg" class="card-img-top" alt="...">
+              </div>
+            </a>
+              <div class="f-btn">
+                <a href="Stairs.html" class="feature-button animate__animated" data-animation="animate__backInUp">Stepenice</a>
+              </div>
+            </div> 
+        </div>
+      </section>
+      <!--FEATURE CARD END-->
+
+      <!--ABOUT-->
+      <section>
+          <div class="about-section">
+            <div class="about-div">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="about-title">
+                    <h1 style="font-family: 'Crimson Text', serif;" class="text-center animate__animated" data-animation="animate__backInLeft">Ko smo mi?</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="about-content animate__animated" data-animation="animate__backInRight">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a class="btn btn-outline-info animate__animated" data-animation="animate__backInRight">Vidi više</a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--ABOUT END-->
+
+      <section class="container p-3">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex align-items-center flex-wrap p-5 main-about">
+              <div class="col-md-6 p-5 animate__animated" data-animation="animate__backInLeft">
+                <h2>Title naslov</h2>
+                <hr/>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <a class="btn btn-outline-secondary">Vidi više</a>
+              </div>
+              <div class="col-md-6 animate__animated" data-animation="animate__backInRight">
+                <img style="width: 100%; height: 100%;" src="../images/instagram/indexStepenice.png"/> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+      <footer id="footer" class="footer-1">
+
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+  
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title">Kamenorezačka radnja - RAŠA<span></span></h5>
+<p>Proizvodnja ekskluzivnog komadnog nameštaja oplemenjenog sa kamenom i uređenje kompletnih enterijera po principu od ideje do realizacije. </p>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Korisni linkovi<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<div class="thumb-content"><a href="#.">O nama</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Galerija</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Materijali</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="Contact.html">Kontakt</a></div> 
+</li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Get Started<span></span></h5>
+<p>Get access to your full Training and Marketing Suite.</p>
+<a class="btn btn-secondary" href="#." target="_blank">Register Now</a>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+
+<div class="widget no-box">
+<h5 class="widget-title">Pronađite nas<span></span></h5>
+<span class="footer-element"><a href="https://www.google.com/maps/place/%C5%A0a%C5%A1ilovac/@43.6472385,21.2112681,14z/data=!3m1!4b1!4m5!3m4!1s0x47568beef53fc53f:0xc815cc6ec6539973!8m2!3d43.6507994!4d21.2370497"><i class="fas fa-location-circle"></i> Kruševac, Šašilovac bb</a></span>
+<br>
+<span class="footer-element"><a href="tel: +381 65 500 7123"><i class="fas fa-phone-square"></i> +381 65 500 7123</a></span>
+<p class="footer-element"><a href="mailto:szkrrasa@gmail.com" title="glorythemes"><i class="far fa-envelope"></i> szkrrasa@gmail.com</a></span>
+<ul class="social-footer2">
+<li class=""><a href="https://www.facebook.com/kamenorezackaradnja.rasa.5" target="_blank" title="Facebook"><i style="font-size: 25px;" class="fab fa-facebook-square"></i></a></li>
+<li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/rasa_mermeri_graniti/"><i style="font-size: 25px;" class="fab fa-instagram"></i></a></li>
+</ul>
+</div>
+</div>
+
+</div>
+
+</div>
+<div class="footer-copyright">
+  <p>Copyright © 2021, RAŠA. Developed by .</p>
+</div>
+</div>
+</footer>
+<!--FOOTER END--> 
+
+
+<button id="scrollToTopBtn">
+  <i class="fas fa-arrow-up"></i>
+</button>
+      
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../Scripts/animate.js"></script>
+        <script src="../Scripts/main.js"></script>
+    </body>
+
+</html>
+
