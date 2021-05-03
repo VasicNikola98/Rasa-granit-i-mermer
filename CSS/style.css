@@ -27,8 +27,149 @@
   color: #969696 !important;
 }
 
-@media (max-width: 575px) {
+.top-carousel .banner-content {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  text-align: left;
+  top: 144px;
+  padding: 10px 40px;
+}
+
+.top-carousel .banner-content h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.btn-hero {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 30px;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-button-div :hover {
+  transition: 0.2s;
+  color: #706f6f;
+  border-color: #706f6f;
+}
+
+@media (max-width: 1199px) {
+  .navbar-brand img {
+    width: 150px;
+  }
+
+  .nav-item a {
+    font-size: 15px;
+  }
+
+  .top-carousel .banner-content {
+    top: 80px;
+  }
+
+  .top-carousel .banner-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
   .carousel-item img {
+    display: none;
+  }
+
+  .top-carousel .banner-content {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    text-align: left;
+    top: 0;
+    background-image: url(../images/index/mobile_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    padding-top: 26px;
+  }
+
+  .top-carousel .banner-content .ban-description {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    padding: 30px 90px;
+    text-align: left;
+  }
+
+  .top-carousel .banner-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+    padding-top: 40px;
+    color: white;
+  }
+
+  .top-carousel .banner-content p {
+    font-size: 15px;
+    color: rgb(218, 218, 218);
+  }
+
+  .btn-hero {
+    color: black;
+    background-color: white;
+    font-size: bold;
+    border: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .top-carousel .banner-content {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    text-align: left;
+    top: 0;
+    background-image: url(../images/index/mobile_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 26px;
+  }
+
+  .top-carousel .banner-content .ban-description {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    text-align: left;
+  }
+
+  .top-carousel .banner-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+    padding-top: 40px;
+    color: white;
+  }
+
+  .top-carousel .banner-content p {
+    font-size: 15px;
+    color: rgb(218, 218, 218);
+  }
+
+  .btn-hero {
+    color: black;
+    background-color: white;
+    font-size: bold;
+    border: none;
+  }
+
+  .carousel-item img {
+    width: 100%;
     height: 500px;
   }
 
